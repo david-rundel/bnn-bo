@@ -11,7 +11,6 @@ from pybnn.util.layers import AppendLayer
 from .model import Model
 from .utils import RegNet
 
-
 class SGHMCPosterior(Posterior):
     def __init__(self, X, model):
         super().__init__()
